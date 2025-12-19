@@ -26,6 +26,7 @@ header a:hover {
   text-decoration: none;
   color: #212529;
   display: inline-block;
+  font-weight: bold;
 }
 
 .icons {
@@ -34,6 +35,7 @@ header a:hover {
   margin-bottom: 6px;
   object-fit: contain;
   filter: grayscale(100%) brightness(0.5);
+  font-weight: bold;
 }
 
 .categories-text {
@@ -45,8 +47,8 @@ header a:hover {
 
 .hero-banner {
   border-radius: 18px;
-  overflow: hidden;          
-  background: #000;        
+  overflow: hidden;
+  background: #000;
 }
 
 
@@ -59,7 +61,7 @@ header a:hover {
 .hero-text {
   position: absolute;
   left: 50%;
-  bottom: 55px;             
+  bottom: 55px;
   transform: translateX(-50%);
   width: 100%;
   padding: 0 16px;
@@ -74,9 +76,9 @@ header a:hover {
 
 
 .hero-title {
-  font-size: 47px;
-  font-weight: 600;
-  line-height: 1.1;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 0.5;
 }
 
 
@@ -84,14 +86,15 @@ header a:hover {
   border-radius: 12px;
   padding: 10px 26px;
   font-weight: 600;
+  margin-top: 10px;
 }
-.second-images{
+
+.second-images {
   border-radius: 20px;
-  overflow: hidden;          
-  background: #000;     
-  margin-top: 30px;  
-  gap :30 
-  px;
+  overflow: hidden;
+  background: #000;
+  margin-top: 30px;
+  gap: 30 px;
 }
 
 .product-card {
@@ -136,6 +139,7 @@ header a:hover {
   padding: 8px 22px;
   font-weight: 600;
 }
+
 .brands {
   background-color: #fff;
 }
@@ -155,59 +159,81 @@ header a:hover {
 
 
 .brand-icon:hover {
-  border: 1px ;
+  border: 1px;
 }
+
 .feedback-card {
-      background: #f5f5f5;
-      border-radius: 14px;
-      padding: 28px;
-      height: 100%;
-    }
+  background: #f5f5f5;
+  border-radius: 14px;
+  padding: 28px;
+  height: 100%;
+}
 
-    .stars {
-      display: flex;
-      gap: 6px;
-      margin-bottom: 12px;
-    }
+.stars {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+}
 
-    .stars span {
-      font-size: 16px;
-      color: #f5a623;
-    }
+.stars span {
+  font-size: 16px;
+  color: #f5a623;
+}
 
-    .feedback-text {
-      font-size: 14px;
-      line-height: 1.6;
-      margin-bottom: 16px;
-    }
+.feedback-text {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
 
-    .feedback-name {
-      font-weight: 600;
-      font-size: 14px;
-    }
+.feedback-name {
+  font-weight: 600;
+  font-size: 14px;
+}
 
-    .carousel-indicators {
-      position: static;
-      margin-top: 40px;
-    }
+.carousel-indicators {
+  position: static;
+  margin-top: 40px;
+}
 
-    .carousel-indicators button {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background-color: #000;
-      opacity: 0.3;
-    }
+.carousel-indicators button {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0.3;
+}
 
-    .carousel-indicators .active {
-      opacity: 1;
-    }
-    .mb-4 {
-      font-weight: bold;
-      font-size: 20px;
-      letter-spacing: 2px;
-    }
+.carousel-indicators .active {
+  opacity: 1;
+}
 
+.mb-4 {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.mb-3 {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.mb-4 {
+  margin: 0;
+  font-size: var(--font-body-size);
+  line-height: var(--font-body-line-height);
+  color: var(--color-base);
+  background: var(--color-body-background);
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+  font-weight: var(--font-body-weight);
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  overflow-x: hidden;
+}
 
 /* Responsive sizing  me media query*/
 @media (max-width: 768px) {
@@ -223,7 +249,8 @@ header a:hover {
     font-size: 0.75rem;
     letter-spacing: 1.5px;
   }
-    .product-title {
+
+  .product-title {
     font-size: 1.6rem;
   }
 
